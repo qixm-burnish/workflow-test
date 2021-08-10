@@ -56,7 +56,7 @@ jobs:
       - name: Build
         run: |
           yarn install
-          yarn run build
+          yarn run build:page
           touch dist/.nojekyll
           cp dist/index.html dist/404.html
 
